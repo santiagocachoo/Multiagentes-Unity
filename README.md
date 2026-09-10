@@ -78,7 +78,7 @@ Botones disponibles: **INICIAR / REINICIAR**, **PAUSAR / CONTINUAR**.
 - **ISO** — vista isométrica general del campo
 - **Top** — vista cenital
 - **POV Cosechadora** — cámara en primera persona siguiendo a una cosechadora (botón _next_ para cambiar de agente)
-- **POV Tractor** — ídem para tractores
+- **POV Tractor** — Lo mismo que el POV cosechadora pero para tractores
 
 ---
 
