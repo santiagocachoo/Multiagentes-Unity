@@ -844,6 +844,11 @@ public class WebSocketManager : MonoBehaviour
         if (data.iniciado && !simulacionIniciada)
         {
             simulacionIniciada = true;
+
+            // Si nos conectamos a una simulacion que el servidor ya
+            // tenia corriendo (en vez de arrancarla nosotros con el
+            // boton), igual hay que quitar el panel de inicio.
+            MostrarPrimeraPagina();
         }
 
         ActualizarTextoIniciarReiniciar();
